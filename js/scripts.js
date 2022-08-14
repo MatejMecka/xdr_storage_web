@@ -2,7 +2,7 @@ const params = new Proxy(new URLSearchParams(window.location.search), {
   get: (searchParams, prop) => searchParams.get(prop),
 });
 
-const WORKER_URL = "http://0.0.0.0:8787"
+const WORKER_URL = "https://xdr_storage.matejmecka.workers.dev"
 const SIMPLE_SIGNER_URL = 'https://sign.plutodao.finance';
 const XDR_FIELD = document.querySelector("#xdr-area")
 const SNACKBAR = document.querySelector("#toast")
