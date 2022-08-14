@@ -1,0 +1,27 @@
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color:#212121;
+    color:#FFFFFF;
+  }
+
+  .mdl-button {
+    color: #FFFFFF !important;
+  }
+}
+
+
+body {
+  text-align:center;
+}
+
+textarea {
+  width: 100em;
+  height: 20em;
+  padding: 5%;
+}
+
+.buttons {
+  margin-bottom: 1%;
+}
+
+

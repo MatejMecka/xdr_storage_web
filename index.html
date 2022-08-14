@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pass that Signature!</title>
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <link rel="stylesheet" type="text/css" href="https://code.getmdl.io/1.3.0/material.indigo-deep_purple.min.css">
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/stellar-sdk/10.1.2/stellar-sdk.min.js"></script>
+  <script type="text/javascript" src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+</head>
+<body>
+  <h1>Pass that signature!</h1>
+  <h4>A Website that allows you to store XDR's to pass for signing</h4>
+
+    <div class="mdl-textfield mdl-js-textfield">
+      <textarea class="mdl-textfield__input" type="text" rows= "15" id="xdr-area" required></textarea>
+      <label class="mdl-textfield__label" for="sample5">Text lines...</label>
+    </div>
+
+
+  <div class="buttons">
+    <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--colored" id="share-xdr">
+    Share XDR
+  </button>
+    
+    <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" id="sign-xdr">
+    Sign Transaction
+  </button>
+
+ <!---   <button class="mdl-button mdl-js-button mdl-button--raised">
+    Submit Transaction
+  </button> Someday, when I don't have to deal with Testnet and Public --->
+
+  </div>
+
+  <div id="toast" class="mdl-js-snackbar mdl-snackbar">
+    <div class="mdl-snackbar__text"></div>
+    <button class="mdl-snackbar__action" type="button"></button>
+  </div>
+
+  <footer class="mdl-mini-footer">
+    <div class="mdl-mini-footer__left-section">
+      <div class="mdl-logo">Developed by Nesho</div>
+      <ul class="mdl-mini-footer__link-list">
+        <li><a href="https://github.com/matejmecka/xdr_storage_web">GitHub</a></li>
+        <li>Donations: GBSFMKD63T2WDSZON3GUUJFDAOOUOEHLPECZIMXXQOOGYB6FMYO6Z5ZP</li>
+      </ul>
+    </div>
+  </footer>
+</body>
+  <script type="text/javascript" src="js/scripts.js"></script>
+</html>
